@@ -301,11 +301,11 @@ export default function HeroSection() {
         >
           <div className="flex items-center gap-3">
             <span className="font-mono text-[10px] tracking-[0.35em] uppercase text-white/25">
-              Portfolio&thinsp;·&thinsp;2025
+              Portfolio&thinsp;·&thinsp;
             </span>
             <span className="text-white/15 font-mono">|</span>
             <span className="font-mono text-[10px] tracking-[0.25em] uppercase text-white/20">
-              AR_DEV
+              S_DEV
             </span>
           </div>
           <div className="flex items-center gap-2 px-3 py-1.5 border border-white/10 bg-white/[0.03] backdrop-blur-sm">
