@@ -377,7 +377,7 @@ export default function HeroSection() {
           {/* CTAs */}
           <div ref={ctaRef} className="flex items-center gap-4 flex-wrap">
             <a
-              href="#projects"
+              href="/projects"
               className="flex items-center gap-3 px-7 py-3.5 bg-white text-black font-mono text-xs tracking-[0.2em] uppercase hover:bg-white/90 transition-colors duration-200"
             >
               View Work
@@ -410,7 +410,7 @@ export default function HeroSection() {
             </span>
           </div>
           <span className="font-mono text-[10px] text-white/18 tracking-widest hidden md:block">
-            01 / 05
+            01 / 04
           </span>
         </div>
       </motion.div>

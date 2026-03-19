@@ -25,8 +25,7 @@ const LINKS = [
   { href: "#hero",     label: "Home",     num: "01" },
   { href: "#about",    label: "About",    num: "02" },
   { href: "#skills",   label: "Skills",   num: "03" },
-  { href: "#projects", label: "Projects", num: "04" },
-  { href: "#contact",  label: "Contact",  num: "05" },
+  { href: "#contact",  label: "Contact",  num: "04" },
 ];
 
 // ── Hover: per-letter Framer Motion stagger ──────────────────────────────────

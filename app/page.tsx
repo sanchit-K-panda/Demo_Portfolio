@@ -3,11 +3,10 @@ import React from "react";
 import { HeroSection } from "@/components/hero";
 import {
   AboutSection,
-  ProjectsSection,
   SkillsSection,
   ContactSection,
 } from "@/components/sections";
-import { getProjects, getAbout } from "@/lib/cms";
+import { getAbout } from "@/lib/cms";
 
 export const metadata: Metadata = {
   title: "Sanchit — Full-Stack Engineer & Designer",
@@ -18,13 +17,12 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function HomePage() {
-  const [projects, about] = await Promise.all([getProjects(), getAbout()]);
+  const about = await getAbout();
 
   return (
     <>
       <HeroSection />
       <AboutSection about={about} />
-      <ProjectsSection projects={projects} />
       <SkillsSection />
       <ContactSection />
     </>
