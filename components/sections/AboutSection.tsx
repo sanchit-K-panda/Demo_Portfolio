@@ -135,10 +135,8 @@ export default function AboutSection({ about }: Props) {
   );
 
   const STATS = [
-    { num: "5+",  label: "Years experience" },
-    { num: "30+", label: "Projects shipped" },
-    { num: "99",  label: "Lighthouse score" },
-    { num: "∞",   label: "Coffee cups" },
+    { num: "2+",  label: "Years experience" },
+    { num: "10+", label: "Projects shipped" },
   ];
 
   return (

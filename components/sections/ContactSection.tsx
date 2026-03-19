@@ -319,7 +319,7 @@ export default function ContactSection() {
         {/* Footer row */}
         <div className="flex items-center justify-between mt-16 pt-8 border-t border-white/8">
           <span className="font-mono text-[10px] text-white/18 tracking-widest uppercase">
-            © 2025 — All rights reserved
+            © 2026 — All rights reserved
           </span>
           <span className="font-mono text-[9px] text-white/12 tracking-widest hidden sm:block">
             05 / 05
