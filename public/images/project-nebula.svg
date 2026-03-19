@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="50%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <circle cx="900" cy="200" r="280" fill="#38bdf8" opacity="0.12" filter="url(#blur)"/>
+  <circle cx="300" cy="500" r="220" fill="#0284c7" opacity="0.15" filter="url(#blur)"/>
+  <text x="640" y="360" font-family="system-ui,sans-serif" font-size="56" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle" opacity="0.9">Nebula Analytics</text>
+  <text x="640" y="420" font-family="monospace" font-size="18" fill="rgba(255,255,255,0.5)" text-anchor="middle">Next.js · Three.js · D3.js</text>
+</svg>

@@ -1,0 +1,49 @@
+name: CI — Lint, Build & Test
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  ci:
+    name: Lint, Build & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # ── Node.js ───────────────────────────────────────────────────────────
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # ── Install dependencies ──────────────────────────────────────────────
+      - name: Install dependencies
+        run: npm ci
+
+      # ── ESLint ────────────────────────────────────────────────────────────
+      - name: Run ESLint
+        run: npm run lint
+
+      # ── Jest tests ────────────────────────────────────────────────────────
+      - name: Run tests
+        run: npm test -- --ci --passWithNoTests
+
+      # ── Next.js build ─────────────────────────────────────────────────────
+      - name: Build
+        run: npm run build
+        env:
+          # CMS and analytics env vars are not required for a static build
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ""
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ""
+          NEXT_PUBLIC_SENTRY_DSN:        ""
+
+  # ── Deployment note ────────────────────────────────────────────────────────
+  # Production deploys are handled by Vercel via the Vercel GitHub integration.
+  # Connect your repo at https://vercel.com/new and set env vars in the Vercel dashboard.

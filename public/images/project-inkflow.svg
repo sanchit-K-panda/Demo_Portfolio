@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <circle cx="750" cy="300" r="260" fill="#34d399" opacity="0.1" filter="url(#blur)"/>
+  <circle cx="200" cy="500" r="200" fill="#059669" opacity="0.15" filter="url(#blur)"/>
+  <text x="640" y="360" font-family="system-ui,sans-serif" font-size="56" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle" opacity="0.9">InkFlow CMS</text>
+  <text x="640" y="420" font-family="monospace" font-size="18" fill="rgba(255,255,255,0.5)" text-anchor="middle">Node.js · GraphQL · MongoDB</text>
+</svg>

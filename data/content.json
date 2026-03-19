@@ -1,0 +1,155 @@
+{
+  "author": {
+    "name": "Alex Rivera",
+    "bio": "Full-stack engineer & designer crafting high-performance web experiences. Passionate about animation, 3D, and developer tooling.",
+    "avatar": "/images/avatar.jpg",
+    "social": {
+      "github": "https://github.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com"
+    }
+  },
+  "about": {
+    "headline": "I build things for the web that feel alive.",
+    "bio": "Hey! I'm Alex — a full-stack developer and UI engineer with 6+ years of experience building products at scale. I specialise in React/Next.js, animation-first interfaces, and performant backend systems.\n\nI've worked on products used by millions. I obsess over pixel-perfect design, silky-smooth 60fps animations, and rock-solid code quality. When I'm not coding, you'll find me tinkering with 3D art or hiking mountain trails.",
+    "skills": [
+      {
+        "category": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "GSAP", "Framer Motion", "Three.js"]
+      },
+      {
+        "category": "Backend",
+        "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "Prisma", "GraphQL", "Redis"]
+      },
+      {
+        "category": "DevOps & Tools",
+        "items": ["Docker", "AWS", "Vercel", "GitHub Actions", "Sentry", "Figma", "Storybook"]
+      }
+    ],
+    "resume": "/resume.pdf"
+  },
+  "projects": [
+    {
+      "slug": "aurora-design-system",
+      "title": "Aurora Design System",
+      "blurb": "A fully accessible, themeable React component library built for design at scale.",
+      "description": "Aurora is a production-grade design system used across a suite of SaaS products. It ships 80+ components with dark/light mode, full keyboard navigation, and comprehensive Storybook documentation. Built with React, TypeScript, Radix UI primitives, and Tailwind CSS.",
+      "coverImage": "/images/project-aurora.svg",
+      "tags": ["React", "TypeScript", "Radix UI", "Storybook", "Design Systems"],
+      "demoUrl": "https://example.com/aurora",
+      "repoUrl": "https://github.com",
+      "featured": true,
+      "year": 2024
+    },
+    {
+      "slug": "nebula-analytics",
+      "title": "Nebula Analytics",
+      "blurb": "Real-time analytics dashboard with 3D data visualizations and AI-powered insights.",
+      "description": "Nebula processes 10M+ events/day and surfaces them through an interactive Three.js dashboard. The backend is a real-time pipeline built on Kafka, Spark, and PostgreSQL. The frontend uses React Query for live updates and D3.js for custom charts.",
+      "coverImage": "/images/project-nebula.svg",
+      "tags": ["Next.js", "Three.js", "D3.js", "Kafka", "PostgreSQL"],
+      "demoUrl": "https://example.com/nebula",
+      "repoUrl": "https://github.com",
+      "featured": true,
+      "year": 2024
+    },
+    {
+      "slug": "inkflow-cms",
+      "title": "InkFlow CMS",
+      "blurb": "A headless CMS with a drag-and-drop page builder and markdown-first authoring.",
+      "description": "InkFlow is a developer-friendly headless CMS featuring a visual drag-and-drop builder, real-time collaboration, and a GraphQL API. It powers 200+ websites and handles 50K+ content updates monthly.",
+      "coverImage": "/images/project-inkflow.svg",
+      "tags": ["Node.js", "GraphQL", "React", "MongoDB", "AWS S3"],
+      "demoUrl": "https://example.com/inkflow",
+      "repoUrl": "https://github.com",
+      "featured": false,
+      "year": 2023
+    },
+    {
+      "slug": "waveform-music",
+      "title": "Waveform Music App",
+      "blurb": "An immersive music streaming interface with WebGL waveform visualizations.",
+      "description": "Waveform reimagines music playback with real-time WebGL audio visualizations powered by the Web Audio API and Three.js. Features include playlist management, cross-fade transitions, and an AI recommendation engine.",
+      "coverImage": "/images/project-waveform.svg",
+      "tags": ["React", "Three.js", "Web Audio API", "Node.js", "Spotify API"],
+      "demoUrl": "https://example.com/waveform",
+      "repoUrl": "https://github.com",
+      "featured": true,
+      "year": 2023
+    },
+    {
+      "slug": "orbit-saas",
+      "title": "Orbit SaaS Platform",
+      "blurb": "Multi-tenant SaaS boilerplate with billing, RBAC, and a killer dashboard.",
+      "description": "Orbit is a production-ready SaaS starter with Stripe billing, multi-tenant architecture, role-based access control, and a fully animated dashboard. Ships with a Next.js frontend, Prisma ORM, and Docker Compose for local development.",
+      "coverImage": "/images/project-orbit.svg",
+      "tags": ["Next.js", "Prisma", "Stripe", "PostgreSQL", "Docker"],
+      "demoUrl": "https://example.com/orbit",
+      "repoUrl": "https://github.com",
+      "featured": false,
+      "year": 2023
+    },
+    {
+      "slug": "solstice-3d",
+      "title": "Solstice 3D Portfolio",
+      "blurb": "An experimental immersive 3D portfolio experience built entirely with Three.js.",
+      "description": "Solstice is a fully 3D portfolio experience where projects are showcased as floating objects in a stylised 3D world. Users navigate by scrolling through scenes powered by GSAP ScrollTrigger and Three.js camera animations.",
+      "coverImage": "/images/project-solstice.svg",
+      "tags": ["Three.js", "GSAP", "WebGL", "TypeScript", "Blender"],
+      "demoUrl": "https://example.com/solstice",
+      "repoUrl": "https://github.com",
+      "featured": false,
+      "year": 2022
+    }
+  ],
+  "posts": [
+    {
+      "slug": "building-scroll-animations-with-gsap",
+      "title": "Building Buttery-Smooth Scroll Animations with GSAP & Lenis",
+      "excerpt": "A deep dive into combining Lenis smooth scroll with GSAP ScrollTrigger to create Hollywood-quality web animations.",
+      "body": "## Introduction\n\nScroll-driven animations have become a core part of modern web design...\n\n## Setting up Lenis\n\nLenis provides a smooth scrolling experience by intercepting native scroll events...\n\n## GSAP ScrollTrigger\n\nGSAP's ScrollTrigger plugin lets you tie any animation to scroll position...",
+      "coverImage": "/images/blog-gsap.jpg",
+      "publishedAt": "2024-02-15",
+      "author": {
+        "name": "Alex Rivera",
+        "bio": "Full-stack engineer & designer",
+        "avatar": "/images/avatar.jpg",
+        "social": { "github": "https://github.com", "twitter": "https://twitter.com" }
+      },
+      "tags": ["GSAP", "Animation", "JavaScript", "Performance"],
+      "readingTime": 8
+    },
+    {
+      "slug": "next-14-app-router-deep-dive",
+      "title": "Next.js 14 App Router: What You Need to Know",
+      "excerpt": "A practical guide to migrating from Pages Router to App Router and making the most of React Server Components.",
+      "body": "## Why App Router?\n\nThe App Router represents a fundamental shift in how Next.js handles rendering...\n\n## Server Components\n\nReact Server Components let you run component code on the server...",
+      "coverImage": "/images/blog-nextjs.jpg",
+      "publishedAt": "2024-01-20",
+      "author": {
+        "name": "Alex Rivera",
+        "bio": "Full-stack engineer & designer",
+        "avatar": "/images/avatar.jpg",
+        "social": { "github": "https://github.com", "twitter": "https://twitter.com" }
+      },
+      "tags": ["Next.js", "React", "TypeScript", "SSR"],
+      "readingTime": 12
+    },
+    {
+      "slug": "three-js-for-web-developers",
+      "title": "Three.js for Web Developers: From Zero to Hero Scene",
+      "excerpt": "Learn how to integrate Three.js into your Next.js app with proper SSR handling, cleanup, and performance optimizations.",
+      "body": "## Getting Started\n\nThree.js is a powerful WebGL abstraction layer...\n\n## Integration with Next.js\n\nThe key challenge is client-side only rendering...",
+      "coverImage": "/images/blog-threejs.jpg",
+      "publishedAt": "2023-12-10",
+      "author": {
+        "name": "Alex Rivera",
+        "bio": "Full-stack engineer & designer",
+        "avatar": "/images/avatar.jpg",
+        "social": { "github": "https://github.com", "twitter": "https://twitter.com" }
+      },
+      "tags": ["Three.js", "WebGL", "React", "Performance"],
+      "readingTime": 15
+    }
+  ]
+}
