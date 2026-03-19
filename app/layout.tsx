@@ -28,15 +28,15 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Alex Rivera — Full-Stack Engineer & Designer",
-    template: "%s | Alex Rivera",
+    default: "Sanchit — Full-Stack Engineer & Designer",
+    template: "%s | Sanchit",
   },
   description:
     "Full-stack engineer crafting high-performance web experiences with Next.js, React, GSAP, Three.js, and world-class design.",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://alexrivera.dev"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanchit.dev"),
   openGraph: {
     type:     "website",
-    siteName: "Alex Rivera",
+    siteName: "Sanchit",
     locale:   "en_US",
   },
   twitter: { card: "summary_large_image" },
@@ -63,7 +63,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               "@context": "https://schema.org",
               "@type": "Person",
               name:     author.name,
-              url:      process.env.NEXT_PUBLIC_SITE_URL ?? "https://alexrivera.dev",
+              url:      process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanchit.dev",
               sameAs:   Object.values(author.social).filter(Boolean),
               jobTitle: "Full-Stack Engineer & Designer",
             }),

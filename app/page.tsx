@@ -10,7 +10,7 @@ import {
 import { getProjects, getAbout } from "@/lib/cms";
 
 export const metadata: Metadata = {
-  title: "Alex Rivera — Full-Stack Engineer & Designer",
+  title: "Sanchit — Full-Stack Engineer & Designer",
   description:
     "Full-stack engineer crafting high-performance web experiences with Next.js, GSAP, Three.js, and pixel-perfect design.",
 };

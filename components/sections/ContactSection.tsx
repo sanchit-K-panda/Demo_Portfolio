@@ -247,7 +247,7 @@ export default function ContactSection() {
                       id="name"
                       type="text"
                       autoComplete="name"
-                      placeholder="Alex Rivera"
+                      placeholder="Sanchit"
                       {...register("name")}
                       className="w-full bg-transparent border-0 border-b border-white/15 text-white/80 placeholder:text-white/18 focus:outline-none focus:border-white/40 py-2.5 font-mono text-[13px] tracking-wider transition-colors duration-200"
                     />
@@ -267,7 +267,7 @@ export default function ContactSection() {
                       id="email"
                       type="email"
                       autoComplete="email"
-                      placeholder="alex@example.com"
+                      placeholder="abc@example.com"
                       {...register("email")}
                       className="w-full bg-transparent border-0 border-b border-white/15 text-white/80 placeholder:text-white/18 focus:outline-none focus:border-white/40 py-2.5 font-mono text-[13px] tracking-wider transition-colors duration-200"
                     />

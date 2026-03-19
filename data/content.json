@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "Alex Rivera",
+    "name": "Sanchit",
     "bio": "Full-stack engineer & designer crafting high-performance web experiences. Passionate about animation, 3D, and developer tooling.",
     "avatar": "/images/avatar.jpg",
     "social": {
@@ -11,7 +11,7 @@
   },
   "about": {
     "headline": "I build things for the web that feel alive.",
-    "bio": "Hey! I'm Alex — a full-stack developer and UI engineer with 6+ years of experience building products at scale. I specialise in React/Next.js, animation-first interfaces, and performant backend systems.\n\nI've worked on products used by millions. I obsess over pixel-perfect design, silky-smooth 60fps animations, and rock-solid code quality. When I'm not coding, you'll find me tinkering with 3D art or hiking mountain trails.",
+    "bio": "Hey! I'm Sanchit — a full-stack developer and UI engineer with 6+ years of experience building products at scale. I specialise in React/Next.js, animation-first interfaces, and performant backend systems.\n\nI've worked on products used by millions. I obsess over pixel-perfect design, silky-smooth 60fps animations, and rock-solid code quality. When I'm not coding, you'll find me tinkering with 3D art or hiking mountain trails.",
     "skills": [
       {
         "category": "Frontend",
@@ -111,7 +111,7 @@
       "coverImage": "/images/blog-gsap.jpg",
       "publishedAt": "2024-02-15",
       "author": {
-        "name": "Alex Rivera",
+        "name": "Sanchit",
         "bio": "Full-stack engineer & designer",
         "avatar": "/images/avatar.jpg",
         "social": { "github": "https://github.com", "twitter": "https://twitter.com" }
@@ -127,7 +127,7 @@
       "coverImage": "/images/blog-nextjs.jpg",
       "publishedAt": "2024-01-20",
       "author": {
-        "name": "Alex Rivera",
+        "name": "Sanchit",
         "bio": "Full-stack engineer & designer",
         "avatar": "/images/avatar.jpg",
         "social": { "github": "https://github.com", "twitter": "https://twitter.com" }
@@ -143,7 +143,7 @@
       "coverImage": "/images/blog-threejs.jpg",
       "publishedAt": "2023-12-10",
       "author": {
-        "name": "Alex Rivera",
+        "name": "Sanchit",
         "bio": "Full-stack engineer & designer",
         "avatar": "/images/avatar.jpg",
         "social": { "github": "https://github.com", "twitter": "https://twitter.com" }

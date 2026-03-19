@@ -245,7 +245,7 @@ export default function Navbar() {
             transition={{ duration: 0.25 }}
             aria-label="Scroll to top"
           >
-            AR_DEV
+            S_DEV
           </motion.a>
 
           {/* Desktop nav */}

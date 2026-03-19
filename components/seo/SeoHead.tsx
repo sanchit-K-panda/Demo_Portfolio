@@ -11,11 +11,11 @@ interface SeoHeadProps {
   publishedAt?: string;
 }
 
-const SITE_NAME = "Alex Rivera — Portfolio";
-const SITE_URL  = "https://alexrivera.dev"; // TODO: Update with your domain
+const SITE_NAME = "Sanchit — Portfolio";
+const SITE_URL  = "https://sanchit.dev"; // TODO: Update with your domain
 
 export default function SeoHead({
-  title       = "Alex Rivera — Full-Stack Engineer & Designer",
+  title       = "Sanchit — Full-Stack Engineer & Designer",
   description = "Full-stack engineer crafting high-performance web experiences with React, Next.js, animations, and 3D.",
   url         = SITE_URL,
   image       = `${SITE_URL}/og-image.jpg`,
@@ -27,7 +27,7 @@ export default function SeoHead({
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name:          author?.name ?? "Alex Rivera",
+    name:          author?.name ?? "Sanchit",
     url:           SITE_URL,
     image:         `${SITE_URL}/images/avatar.jpg`,
     sameAs:        [
@@ -50,7 +50,7 @@ export default function SeoHead({
     datePublished: publishedAt,
     author: {
       "@type": "Person",
-      name: author?.name ?? "Alex Rivera",
+      name: author?.name ?? "Sanchit",
     },
   } : null;
 
@@ -58,7 +58,7 @@ export default function SeoHead({
     <>
       {/* Primary meta */}
       <meta name="description" content={description} />
-      <meta name="author" content={author?.name ?? "Alex Rivera"} />
+      <meta name="author" content={author?.name ?? "Sanchit"} />
 
       {/* Open Graph */}
       <meta property="og:type"        content={type} />
