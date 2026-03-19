@@ -204,14 +204,14 @@ export default function AboutSection({ about }: Props) {
                 <h2
                   id="about-headline"
                   className="font-display font-bold mb-16"
-                  style={{ fontSize: "clamp(2.4rem, 6vw, 5.5rem)", lineHeight: 0.95 }}
+                  style={{ fontSize: "clamp(2.4rem, 6vw, 5.5rem)", lineHeight: 1.1 }}
                 >
                   {about.headline.split(" ").map((word, i) => (
                     <span
                       key={i}
-                      className="word-mask inline-block overflow-hidden mr-[0.18em]"
+                      className="word-mask inline-block overflow-hidden mr-[0.18em] pr-[0.06em] pb-[0.12em] -mb-[0.12em]"
                     >
-                      <span className="block">{word}</span>
+                      <span className="block leading-[1.1]">{word}</span>
                     </span>
                   ))}
                 </h2>
